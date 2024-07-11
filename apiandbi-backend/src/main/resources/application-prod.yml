@@ -25,7 +25,7 @@ spring:
     host: 8.134.112.58
     port: 6379
     timeout: 5000
-    password:
+    password: 181399
   session:
     store-type: redis
     timeout: 86400
