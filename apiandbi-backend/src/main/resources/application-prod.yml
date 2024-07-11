@@ -22,7 +22,7 @@ spring:
   # 需替换配置
   redis:
     database: 2
-    host:
+    host: 8.134.112.58
     port: 6379
     timeout: 5000
     password:
