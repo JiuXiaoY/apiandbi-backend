@@ -7,7 +7,6 @@ import com.image.project.common.BaseResponse;
 import com.image.project.common.DeleteRequest;
 import com.image.project.common.ErrorCode;
 import com.image.project.common.ResultUtils;
-import com.image.project.config.WxOpenConfig;
 import com.image.project.constant.UserConstant;
 import com.image.project.exception.BusinessException;
 import com.image.project.exception.ThrowUtils;
@@ -37,9 +36,6 @@ public class UserController {
 
     @Resource
     private UserService userService;
-
-    @Resource
-    private WxOpenConfig wxOpenConfig;
 
     // region 登录相关
 
